@@ -2,7 +2,7 @@
 
 ### How to Run:
 ## Way1:
-At first, install the whole code into your local device. Also, one needs to install all the dependencies first, listed inside "requirements.txt" file.
+At first, install the whole code into your local device. Also, one needs to install all the dependencies first, listed inside "requirements.txt" file.<br><br>
 Open up the "final-task" named folder and in 2 different cmd/powershell window, run both python files namely "sender.py" and "worker.py", simultaneously. You can find both files beneath folders "server" and "worker" respectively.
 On the terminal where "sender.py" is running, you can find the url of localhost, on clicking it will redirect you to the default browser, where there's present a simple UI to put your test, and the text will get processed by worker and the sentiment of that text will be shown to you.
 
