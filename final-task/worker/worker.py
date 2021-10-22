@@ -10,7 +10,7 @@ print(' [*] Sleeping for ', sleepTime, ' seconds.')
 model = tf.keras.models.load_model('sentiment_model.h5',custom_objects={'KerasLayer':hub.KerasLayer})
 
 print(' [*] Connecting to server ...')
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='rabbitmq'))
+connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
 channel.queue_declare(queue='task_queue', durable=True)
 
