@@ -1,0 +1,4 @@
+pika
+Flask
+tensorflow==2.6.0
+tensorflow_hub==0.12.0
